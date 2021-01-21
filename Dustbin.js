@@ -4,7 +4,7 @@ class Dustbin {
           isStatic: true,
            restitution : 0.3,
            friction : 0.5,
-           density : 1.2
+           density : 1.2,
       }
       this.width = width;
       this.height = height;

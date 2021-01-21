@@ -4,7 +4,7 @@ class Paper {
             isStatic : false,
             restitution : 0.3,
             friction : 0.5,
-            density : 1.2
+            density : 1.2,
         }
         this.x = x;
         this.y = y;
@@ -18,7 +18,7 @@ class Paper {
          var angle = this.body.angle;
 
          push();
-         translate(paperpos.x, paperpos.y + 42);
+         translate(paperpos.x, paperpos.y + 46);
          rotate(angle);
          imageMode(CENTER);
          image(this.image, 0, 0, this.r, this.r);
